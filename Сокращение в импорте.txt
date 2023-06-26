@@ -1,0 +1,7 @@
+from decimal import Decimal as D
+
+num1 = D('1.5') + D('3.2')
+num2 = D('1.4') * D('2.58')
+
+print(num1)
+print(num2)

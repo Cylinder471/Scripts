@@ -1,0 +1,4 @@
+x, y = input(), input()
+var = ['камень', 'ножницы', 'бумага']
+ans = ['ничья', 'Руслан', 'Тимур']
+print(ans[var.index(x) - var.index(y)])

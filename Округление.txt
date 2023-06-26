@@ -1,0 +1,1 @@
+result2 = list(map(round, circle_areas, range(1, 7)))
