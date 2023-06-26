@@ -1,0 +1,10 @@
+def strip_string(strip_chars = ' '):
+	def do_strip(string):
+		return string.strip(strip_chars)
+	return do strip
+
+strip1 = strip_string()
+strip2 = strip_string(" !&,.;")
+
+#Замыкание, потому что работает как цепочка
+strip1 ссылается на функцию do_strip и поэтому она не удаляется сборщиком мусора
