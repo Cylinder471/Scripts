@@ -1,0 +1,4 @@
+def pwr(p):
+  def numpower(n):
+    return n**p
+  return numpower
